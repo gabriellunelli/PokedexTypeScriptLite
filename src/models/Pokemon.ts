@@ -20,4 +20,4 @@ export interface PokemonApiResponse {
 
 // TYPE NOMEOUID (STRING OU NUMBER)
 
-type NomeOuId = string | number
+export type NomeOuId = string | number
