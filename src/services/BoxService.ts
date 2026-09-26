@@ -17,6 +17,7 @@ export class CatalogoPokemon {
 
     listarCatalogo():void {
         if (this.catalogo.length > 0) {
+            console.log('\n')
             repetir('=')
             titulo('Catálogo atual')
             repetir('=')
@@ -25,7 +26,7 @@ export class CatalogoPokemon {
             console.log(pokemonLog(pokemon.id, pokemon.nome, pokemon.tipos, pokemon.altura, pokemon.peso))  
             })
             
-            repetir('=')
+            repetir('=\n')
             
         } else {
             console.log(aviso('Catálogo vazio.'))
