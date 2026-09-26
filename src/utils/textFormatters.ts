@@ -18,8 +18,8 @@ export function titulo(titulo:string):void {
     console.log(titulo.toUpperCase()) 
 }
 
-export function repetir(texto:string, qntd:number = 17):void {
-    for (let i = 0; i < qntd; i++) {
+export function repetir(texto:string):void {
+    for (let i = 0; i < 5; i++) {
         texto += texto        
     }
 
