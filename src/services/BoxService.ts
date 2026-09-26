@@ -2,7 +2,7 @@ import { NomeOuId, PokemonResumo } from "../models/Pokemon";
 import { aviso, erro, ok, pokemonLog, repetir, titulo } from "../utils/textFormatters";
 import { buscarPokemon } from "./PokeApiService";
 
-class CatalogoPokemon {
+export class CatalogoPokemon {
     private catalogo:PokemonResumo[] = []
 
     adicionarAoCatalogo( pokemon:PokemonResumo):void {
