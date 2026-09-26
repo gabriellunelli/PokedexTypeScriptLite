@@ -17,7 +17,7 @@ export async function buscarPokemon(nomeOuId:NomeOuId):Promise<PokemonResumo | n
                 altura:dados.height,
                 peso:dados.weight
             }
-            console.log(dadoFinal)
+            
             return dadoFinal
         } else {
             console.log(erro(`Pokémon não encontrado: ${nomeOuId}`))
