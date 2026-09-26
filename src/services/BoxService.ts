@@ -1,6 +1,5 @@
-import { NomeOuId, PokemonResumo } from "../models/Pokemon";
+import { PokemonResumo } from "../models/Pokemon";
 import { aviso, erro, ok, pokemonLog, repetir, titulo } from "../utils/textFormatters";
-import { buscarPokemon } from "./PokeApiService";
 
 export class CatalogoPokemon {
     private catalogo:PokemonResumo[] = []
