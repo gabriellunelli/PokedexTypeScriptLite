@@ -26,7 +26,8 @@ export class CatalogoPokemon {
             console.log(pokemonLog(pokemon.id, pokemon.nome, pokemon.tipos, pokemon.altura, pokemon.peso))  
             })
             
-            repetir('=\n')
+            repetir('=')
+            console.log('\n')
             
         } else {
             console.log(aviso('Catálogo vazio.'))
