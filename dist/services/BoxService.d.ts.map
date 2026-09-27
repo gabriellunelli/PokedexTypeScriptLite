@@ -1,0 +1,1 @@
+{"version":3,"file":"BoxService.d.ts","sourceRoot":"","sources":["../../src/services/BoxService.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,mBAAmB,CAAC;AAGlD,qBAAa,eAAe;IACxB,OAAO,CAAC,QAAQ,CAAqB;IAErC,mBAAmB,CAAE,OAAO,EAAC,aAAa,GAAE,IAAI,CAS/C;IAED,cAAc,IAAG,IAAI,CAiBpB;IAED,iBAAiB,CAAC,SAAS,EAAC,MAAM,GAAE,IAAI,CAUvC;CAEJ"}
