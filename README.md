@@ -46,19 +46,19 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/gabriellunelli/PokedexTypeScriptLite
-
+```
 Acesse a pasta do projeto:
-
+```bash
 cd PokedexTypeScriptLite
-
+```
 Instale as dependências:
-
+```bash
 npm install
-
+```
 Como executar
-
+```bash
 npm start
-
+```
 ## Estrutura do projeto
 
 PokedexTypeScriptLite/
