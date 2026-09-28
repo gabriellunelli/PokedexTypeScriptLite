@@ -48,19 +48,23 @@ Clone o repositório:
 git clone https://github.com/gabriellunelli/PokedexTypeScriptLite
 ```
 Acesse a pasta do projeto:
+
 ```bash
 cd PokedexTypeScriptLite
 ```
 Instale as dependências:
+
 ```bash
 npm install
 ```
 Como executar
+
 ```bash
 npm start
 ```
 ## Estrutura do projeto
 
+```bash
 PokedexTypeScriptLite/
 │
 ├── src/
@@ -77,6 +81,7 @@ PokedexTypeScriptLite/
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
 Funcionalidades
 
@@ -93,53 +98,74 @@ Funcionalidades
 
 Entrada testada:
 
+```bash
 adicionarAoCatalogo(pikachu)
+```
 
 Saída obtida:
 
+```bash
 [ OK ] pikachu adicionado ao catálogo.
+```
 
 Listagem do catálogo
 Entrada testada:
 
+```bash
 listarCatalogo()
+```
 
 Saída:
 
+```bash
 ================================
 CATÁLOGO ATUAL
 ================================
 #4 - charmander | Tipos: fire | Altura: 6 | Peso: 85
 #25 - pikachu | Tipos: electric | Altura: 4 | Peso: 60
 ================================
+```
 
 Busca inválida
 Entrada testada:
 
-pokemon-inexistente
+```bash
+buscarPokemon(pokemon-inexistente)
+```
 
 Saída obtida:
 
+```bash
 [ ERRO ] Pokémon não encontrado: pokemon-inexistente
+```
 
 Duplicidade
 
 Entrada testada:
 
+```bash
 adicionarAoCatalogo(pikachu) duas vezes
+```
 
 Saída obtida:
 
+```bash
 [ AVISO ] pikachu já está no catálogo.
+```
 
 Remoção
 
 Entrada testada:
 
+```bash
 removerDoCatalogo(25)
+```
 
 Saída obtida:
+
+```bash
 [ OK ] Pokémon removido do catálogo.
+```
 
 Organização do Kanban
 
